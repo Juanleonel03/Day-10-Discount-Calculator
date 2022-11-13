@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  background: linear-gradient(to right bottom, #dc9696, #d08281, #c46e6d, #b75959, #aa4545) no-repeat;
+  min-height: 100vh;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.box-calculator{
+  width: 380px;
+  margin: 200px auto 20px auto;
+  background: #fafafa;
+  box-shadow: 0 0 10px;
+}
+
+h2{
+  text-align: center;
+  margin: 15px 0;
+}
+form{
+  width: 100%;
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+form label{
+  text-align:start;
+}
+form input{
+  background: none;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #e96b6b;
+  outline: none;
+}
+
+form input:nth-last-child(n-1){
+  margin-bottom: 20px;
+}
+form button{
+  width: 300px;
+  height: 40px;
+  border: none;
+  background: #e96b6b;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+form button:hover{
+  background: #e96b6ba2;
+}
